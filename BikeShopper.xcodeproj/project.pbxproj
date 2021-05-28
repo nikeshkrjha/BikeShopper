@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09646F3440583F4AE5C6C810 /* Pods_BikeShopper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D68DDB83AD8D28F9266D01 /* Pods_BikeShopper.framework */; };
+		8FB927EF2656405800465CCC /* CommonConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB927EE2656405800465CCC /* CommonConsts.swift */; };
+		966A54D526538DDA002D23B1 /* BikeShopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A54D426538DDA002D23B1 /* BikeShopperApp.swift */; };
+		966A54D726538DDA002D23B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A54D626538DDA002D23B1 /* MainView.swift */; };
+		966A54D926538DDB002D23B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966A54D826538DDB002D23B1 /* Assets.xcassets */; };
+		966A54DC26538DDB002D23B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966A54DB26538DDB002D23B1 /* Preview Assets.xcassets */; };
+		966A54E726538DDB002D23B1 /* BikeShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A54E626538DDB002D23B1 /* BikeShopperTests.swift */; };
+		966A54F226538DDB002D23B1 /* BikeShopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A54F126538DDB002D23B1 /* BikeShopperUITests.swift */; };
+		966A55032653972A002D23B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A55022653972A002D23B1 /* HomeView.swift */; };
+		966A5513265398A9002D23B1 /* ShopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A5512265398A9002D23B1 /* ShopsView.swift */; };
+		966A55392653BCB3002D23B1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A55382653BCB3002D23B1 /* MapView.swift */; };
+		966F23C926552A6F00EEF883 /* ShopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F23C826552A6F00EEF883 /* ShopDetailView.swift */; };
+		96CCD0C5265D08C1008E4061 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD0C1265D08C1008E4061 /* EnvironmentValues+ImageCache.swift */; };
+		96CCD0C6265D08C1008E4061 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD0C2265D08C1008E4061 /* AsyncImage.swift */; };
+		96CCD0C7265D08C1008E4061 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD0C3265D08C1008E4061 /* ImageCache.swift */; };
+		96CCD0C8265D08C1008E4061 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD0C4265D08C1008E4061 /* ImageLoader.swift */; };
+		96CCD0CD265D0918008E4061 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD0CC265D0918008E4061 /* DataModels.swift */; };
+		96CCD0D5265D0C8B008E4061 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD0D4265D0C8B008E4061 /* Utils.swift */; };
+		99E64E958C718ACDE47581AB /* Pods_BikeShopperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A002364EC21B41B4808CE21 /* Pods_BikeShopperTests.framework */; };
+		F21013220CF4BB5A50191940 /* Pods_BikeShopper_BikeShopperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBCACFD64434FB02C1D79D1 /* Pods_BikeShopper_BikeShopperUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		966A54E326538DDB002D23B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966A54C926538DDA002D23B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966A54D026538DDA002D23B1;
+			remoteInfo = BikeShopper;
+		};
+		966A54EE26538DDB002D23B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966A54C926538DDA002D23B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966A54D026538DDA002D23B1;
+			remoteInfo = BikeShopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A002364EC21B41B4808CE21 /* Pods_BikeShopperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeShopperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D5359E3E85286FB54A6757 /* Pods-BikeShopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeShopperTests.release.xcconfig"; path = "Target Support Files/Pods-BikeShopperTests/Pods-BikeShopperTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B698EDC0667FEEAE57581A8 /* Pods-BikeShopperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeShopperTests.debug.xcconfig"; path = "Target Support Files/Pods-BikeShopperTests/Pods-BikeShopperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87F7D93194CA6C9B66853B0D /* Pods-BikeShopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeShopper.release.xcconfig"; path = "Target Support Files/Pods-BikeShopper/Pods-BikeShopper.release.xcconfig"; sourceTree = "<group>"; };
+		8DECA2013BFDCCACBF98B445 /* Pods-BikeShopper-BikeShopperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeShopper-BikeShopperUITests.debug.xcconfig"; path = "Target Support Files/Pods-BikeShopper-BikeShopperUITests/Pods-BikeShopper-BikeShopperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FB927EE2656405800465CCC /* CommonConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConsts.swift; sourceTree = "<group>"; };
+		93D68DDB83AD8D28F9266D01 /* Pods_BikeShopper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeShopper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		966A54D126538DDA002D23B1 /* BikeShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966A54D426538DDA002D23B1 /* BikeShopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShopperApp.swift; sourceTree = "<group>"; };
+		966A54D626538DDA002D23B1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		966A54D826538DDB002D23B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		966A54DB26538DDB002D23B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		966A54DD26538DDB002D23B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966A54E226538DDB002D23B1 /* BikeShopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeShopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966A54E626538DDB002D23B1 /* BikeShopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShopperTests.swift; sourceTree = "<group>"; };
+		966A54E826538DDB002D23B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966A54ED26538DDB002D23B1 /* BikeShopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeShopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966A54F126538DDB002D23B1 /* BikeShopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShopperUITests.swift; sourceTree = "<group>"; };
+		966A54F326538DDB002D23B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966A55022653972A002D23B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		966A5512265398A9002D23B1 /* ShopsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsView.swift; sourceTree = "<group>"; };
+		966A55382653BCB3002D23B1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		966F23C826552A6F00EEF883 /* ShopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailView.swift; sourceTree = "<group>"; };
+		96CCD0C1265D08C1008E4061 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		96CCD0C2265D08C1008E4061 /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		96CCD0C3265D08C1008E4061 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		96CCD0C4265D08C1008E4061 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		96CCD0CC265D0918008E4061 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		96CCD0D4265D0C8B008E4061 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BD490895FE34D92CADBA4CB4 /* Pods-BikeShopper-BikeShopperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeShopper-BikeShopperUITests.release.xcconfig"; path = "Target Support Files/Pods-BikeShopper-BikeShopperUITests/Pods-BikeShopper-BikeShopperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9FEBFD27570866E1B0DD308 /* Pods-BikeShopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeShopper.debug.xcconfig"; path = "Target Support Files/Pods-BikeShopper/Pods-BikeShopper.debug.xcconfig"; sourceTree = "<group>"; };
+		EEBCACFD64434FB02C1D79D1 /* Pods_BikeShopper_BikeShopperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeShopper_BikeShopperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966A54CE26538DDA002D23B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09646F3440583F4AE5C6C810 /* Pods_BikeShopper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A54DF26538DDB002D23B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E64E958C718ACDE47581AB /* Pods_BikeShopperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A54EA26538DDB002D23B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21013220CF4BB5A50191940 /* Pods_BikeShopper_BikeShopperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305F4AA684FF59758EB5ED64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9FEBFD27570866E1B0DD308 /* Pods-BikeShopper.debug.xcconfig */,
+				87F7D93194CA6C9B66853B0D /* Pods-BikeShopper.release.xcconfig */,
+				8DECA2013BFDCCACBF98B445 /* Pods-BikeShopper-BikeShopperUITests.debug.xcconfig */,
+				BD490895FE34D92CADBA4CB4 /* Pods-BikeShopper-BikeShopperUITests.release.xcconfig */,
+				5B698EDC0667FEEAE57581A8 /* Pods-BikeShopperTests.debug.xcconfig */,
+				12D5359E3E85286FB54A6757 /* Pods-BikeShopperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C03BFF2ECE27E9C04ED46C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93D68DDB83AD8D28F9266D01 /* Pods_BikeShopper.framework */,
+				EEBCACFD64434FB02C1D79D1 /* Pods_BikeShopper_BikeShopperUITests.framework */,
+				0A002364EC21B41B4808CE21 /* Pods_BikeShopperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		966A54C826538DDA002D23B1 = {
+			isa = PBXGroup;
+			children = (
+				966A54D326538DDA002D23B1 /* BikeShopper */,
+				966A54E526538DDB002D23B1 /* BikeShopperTests */,
+				966A54F026538DDB002D23B1 /* BikeShopperUITests */,
+				966A54D226538DDA002D23B1 /* Products */,
+				305F4AA684FF59758EB5ED64 /* Pods */,
+				3C03BFF2ECE27E9C04ED46C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		966A54D226538DDA002D23B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966A54D126538DDA002D23B1 /* BikeShopper.app */,
+				966A54E226538DDB002D23B1 /* BikeShopperTests.xctest */,
+				966A54ED26538DDB002D23B1 /* BikeShopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966A54D326538DDA002D23B1 /* BikeShopper */ = {
+			isa = PBXGroup;
+			children = (
+				966A54D426538DDA002D23B1 /* BikeShopperApp.swift */,
+				966A54D626538DDA002D23B1 /* MainView.swift */,
+				966A55022653972A002D23B1 /* HomeView.swift */,
+				966A5512265398A9002D23B1 /* ShopsView.swift */,
+				966F23C826552A6F00EEF883 /* ShopDetailView.swift */,
+				966A55382653BCB3002D23B1 /* MapView.swift */,
+				96CCD0CC265D0918008E4061 /* DataModels.swift */,
+				96CCD0D4265D0C8B008E4061 /* Utils.swift */,
+				8FB927EE2656405800465CCC /* CommonConsts.swift */,
+				966A54D826538DDB002D23B1 /* Assets.xcassets */,
+				966A54DD26538DDB002D23B1 /* Info.plist */,
+				96CCD0C0265D07B4008E4061 /* AsyncImage */,
+				966A54DA26538DDB002D23B1 /* Preview Content */,
+			);
+			path = BikeShopper;
+			sourceTree = "<group>";
+		};
+		966A54DA26538DDB002D23B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				966A54DB26538DDB002D23B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		966A54E526538DDB002D23B1 /* BikeShopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				966A54E626538DDB002D23B1 /* BikeShopperTests.swift */,
+				966A54E826538DDB002D23B1 /* Info.plist */,
+			);
+			path = BikeShopperTests;
+			sourceTree = "<group>";
+		};
+		966A54F026538DDB002D23B1 /* BikeShopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				966A54F126538DDB002D23B1 /* BikeShopperUITests.swift */,
+				966A54F326538DDB002D23B1 /* Info.plist */,
+			);
+			path = BikeShopperUITests;
+			sourceTree = "<group>";
+		};
+		96CCD0C0265D07B4008E4061 /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				96CCD0C2265D08C1008E4061 /* AsyncImage.swift */,
+				96CCD0C1265D08C1008E4061 /* EnvironmentValues+ImageCache.swift */,
+				96CCD0C3265D08C1008E4061 /* ImageCache.swift */,
+				96CCD0C4265D08C1008E4061 /* ImageLoader.swift */,
+			);
+			path = AsyncImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966A54D026538DDA002D23B1 /* BikeShopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966A54F626538DDB002D23B1 /* Build configuration list for PBXNativeTarget "BikeShopper" */;
+			buildPhases = (
+				66D0C59639B35A3686DB073D /* [CP] Check Pods Manifest.lock */,
+				966A54CD26538DDA002D23B1 /* Sources */,
+				966A54CE26538DDA002D23B1 /* Frameworks */,
+				966A54CF26538DDA002D23B1 /* Resources */,
+				C10FEDEED6E0C7BD7ADFEF7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeShopper;
+			productName = BikeShopper;
+			productReference = 966A54D126538DDA002D23B1 /* BikeShopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		966A54E126538DDB002D23B1 /* BikeShopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966A54F926538DDB002D23B1 /* Build configuration list for PBXNativeTarget "BikeShopperTests" */;
+			buildPhases = (
+				1530E9F40E289F4D1D9A2074 /* [CP] Check Pods Manifest.lock */,
+				966A54DE26538DDB002D23B1 /* Sources */,
+				966A54DF26538DDB002D23B1 /* Frameworks */,
+				966A54E026538DDB002D23B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966A54E426538DDB002D23B1 /* PBXTargetDependency */,
+			);
+			name = BikeShopperTests;
+			productName = BikeShopperTests;
+			productReference = 966A54E226538DDB002D23B1 /* BikeShopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		966A54EC26538DDB002D23B1 /* BikeShopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966A54FC26538DDB002D23B1 /* Build configuration list for PBXNativeTarget "BikeShopperUITests" */;
+			buildPhases = (
+				C808DBFC314D81678B5F55A9 /* [CP] Check Pods Manifest.lock */,
+				966A54E926538DDB002D23B1 /* Sources */,
+				966A54EA26538DDB002D23B1 /* Frameworks */,
+				966A54EB26538DDB002D23B1 /* Resources */,
+				8CAD50DADE9D3A0A6E613E0A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966A54EF26538DDB002D23B1 /* PBXTargetDependency */,
+			);
+			name = BikeShopperUITests;
+			productName = BikeShopperUITests;
+			productReference = 966A54ED26538DDB002D23B1 /* BikeShopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966A54C926538DDA002D23B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					966A54D026538DDA002D23B1 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					966A54E126538DDB002D23B1 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 966A54D026538DDA002D23B1;
+					};
+					966A54EC26538DDB002D23B1 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 966A54D026538DDA002D23B1;
+					};
+				};
+			};
+			buildConfigurationList = 966A54CC26538DDA002D23B1 /* Build configuration list for PBXProject "BikeShopper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966A54C826538DDA002D23B1;
+			productRefGroup = 966A54D226538DDA002D23B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966A54D026538DDA002D23B1 /* BikeShopper */,
+				966A54E126538DDB002D23B1 /* BikeShopperTests */,
+				966A54EC26538DDB002D23B1 /* BikeShopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966A54CF26538DDA002D23B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966A54DC26538DDB002D23B1 /* Preview Assets.xcassets in Resources */,
+				966A54D926538DDB002D23B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A54E026538DDB002D23B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A54EB26538DDB002D23B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1530E9F40E289F4D1D9A2074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeShopperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D0C59639B35A3686DB073D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeShopper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CAD50DADE9D3A0A6E613E0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeShopper-BikeShopperUITests/Pods-BikeShopper-BikeShopperUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeShopper-BikeShopperUITests/Pods-BikeShopper-BikeShopperUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeShopper-BikeShopperUITests/Pods-BikeShopper-BikeShopperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10FEDEED6E0C7BD7ADFEF7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeShopper/Pods-BikeShopper-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeShopper/Pods-BikeShopper-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeShopper/Pods-BikeShopper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C808DBFC314D81678B5F55A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeShopper-BikeShopperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966A54CD26538DDA002D23B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CCD0C7265D08C1008E4061 /* ImageCache.swift in Sources */,
+				966F23C926552A6F00EEF883 /* ShopDetailView.swift in Sources */,
+				96CCD0C6265D08C1008E4061 /* AsyncImage.swift in Sources */,
+				966A55032653972A002D23B1 /* HomeView.swift in Sources */,
+				966A54D726538DDA002D23B1 /* MainView.swift in Sources */,
+				96CCD0D5265D0C8B008E4061 /* Utils.swift in Sources */,
+				96CCD0C8265D08C1008E4061 /* ImageLoader.swift in Sources */,
+				966A55392653BCB3002D23B1 /* MapView.swift in Sources */,
+				96CCD0C5265D08C1008E4061 /* EnvironmentValues+ImageCache.swift in Sources */,
+				8FB927EF2656405800465CCC /* CommonConsts.swift in Sources */,
+				96CCD0CD265D0918008E4061 /* DataModels.swift in Sources */,
+				966A5513265398A9002D23B1 /* ShopsView.swift in Sources */,
+				966A54D526538DDA002D23B1 /* BikeShopperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A54DE26538DDB002D23B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966A54E726538DDB002D23B1 /* BikeShopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A54E926538DDB002D23B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966A54F226538DDB002D23B1 /* BikeShopperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		966A54E426538DDB002D23B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966A54D026538DDA002D23B1 /* BikeShopper */;
+			targetProxy = 966A54E326538DDB002D23B1 /* PBXContainerItemProxy */;
+		};
+		966A54EF26538DDB002D23B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966A54D026538DDA002D23B1 /* BikeShopper */;
+			targetProxy = 966A54EE26538DDB002D23B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		966A54F426538DDB002D23B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		966A54F526538DDB002D23B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966A54F726538DDB002D23B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FEBFD27570866E1B0DD308 /* Pods-BikeShopper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeShopper/Preview Content\"";
+				DEVELOPMENT_TEAM = 46K77T6V6N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeShopper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsekinkrjha.BikeShopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		966A54F826538DDB002D23B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F7D93194CA6C9B66853B0D /* Pods-BikeShopper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeShopper/Preview Content\"";
+				DEVELOPMENT_TEAM = 46K77T6V6N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeShopper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsekinkrjha.BikeShopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		966A54FA26538DDB002D23B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B698EDC0667FEEAE57581A8 /* Pods-BikeShopperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46K77T6V6N;
+				INFOPLIST_FILE = BikeShopperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.om.BikeShopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeShopper.app/BikeShopper";
+			};
+			name = Debug;
+		};
+		966A54FB26538DDB002D23B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D5359E3E85286FB54A6757 /* Pods-BikeShopperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46K77T6V6N;
+				INFOPLIST_FILE = BikeShopperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.om.BikeShopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeShopper.app/BikeShopper";
+			};
+			name = Release;
+		};
+		966A54FD26538DDB002D23B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DECA2013BFDCCACBF98B445 /* Pods-BikeShopper-BikeShopperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46K77T6V6N;
+				INFOPLIST_FILE = BikeShopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.om.BikeShopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BikeShopper;
+			};
+			name = Debug;
+		};
+		966A54FE26538DDB002D23B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD490895FE34D92CADBA4CB4 /* Pods-BikeShopper-BikeShopperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46K77T6V6N;
+				INFOPLIST_FILE = BikeShopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.om.BikeShopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BikeShopper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966A54CC26538DDA002D23B1 /* Build configuration list for PBXProject "BikeShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966A54F426538DDB002D23B1 /* Debug */,
+				966A54F526538DDB002D23B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966A54F626538DDB002D23B1 /* Build configuration list for PBXNativeTarget "BikeShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966A54F726538DDB002D23B1 /* Debug */,
+				966A54F826538DDB002D23B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966A54F926538DDB002D23B1 /* Build configuration list for PBXNativeTarget "BikeShopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966A54FA26538DDB002D23B1 /* Debug */,
+				966A54FB26538DDB002D23B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966A54FC26538DDB002D23B1 /* Build configuration list for PBXNativeTarget "BikeShopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966A54FD26538DDB002D23B1 /* Debug */,
+				966A54FE26538DDB002D23B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966A54C926538DDA002D23B1 /* Project object */;
+}

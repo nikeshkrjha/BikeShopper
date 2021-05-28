@@ -1,0 +1,6 @@
+framework module Pods_BikeShopperTests {
+  umbrella header "Pods-BikeShopperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
